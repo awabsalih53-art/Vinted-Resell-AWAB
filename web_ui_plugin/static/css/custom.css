@@ -1,35 +1,35 @@
-/* Custom styles for Vinted Notifications Web UI - Vinted-inspired theme */
+/* Custom styles for Awab Reselling Dashboard - Professional theme */
 
 /* Global styles */
 :root {
-    --primary-color: #09B1BA; /* Reverted to original teal color */
-    --secondary-color: #007782; /* Darker teal for secondary */
-    --accent-color: #FF5E5B;
-    --light-bg: #f9f9f9;
-    --dark-bg: #333333;
-    --success-color: #28a745;
-    --warning-color: #ffc107;
-    --danger-color: #dc3545;
-    --text-color: #333;
-    --text-muted: #6c757d;
-    --border-color: #eeeeee;
-    --shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
-    --shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    --primary-color: #2563eb; /* Professional blue */
+    --secondary-color: #1e40af; /* Darker blue for secondary */
+    --accent-color: #10b981; /* Green accent for profits */
+    --light-bg: #f9fafb;
+    --dark-bg: #1f2937;
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --danger-color: #ef4444;
+    --text-color: #111827;
+    --text-muted: #6b7280;
+    --border-color: #e5e7eb;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
     --transition-speed: 0.3s;
     --border-radius: 0.5rem;
-    --purple-color: #8A2BE2; /* Keep the purple color for gradient */
 }
 
 body {
     color: var(--text-color);
+    background-color: var(--light-bg);
 }
 
-/* Header and navigation styles - Vinted inspired */
+/* Header and navigation styles - Professional dashboard theme */
 .app-header {
-    background: linear-gradient(to right, var(--primary-color), var(--purple-color));
-    box-shadow: var(--shadow-sm);
-    border-bottom: 1px solid var(--border-color);
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+    box-shadow: var(--shadow-md);
+    border-bottom: none;
 }
 
 .navbar-brand {
@@ -44,7 +44,7 @@ body {
 }
 
 .nav-link:hover:not(.active) {
-    background-color: rgba(9, 177, 186, 0.1);
+    background-color: rgba(37, 99, 235, 0.1);
     color: var(--primary-color);
     border-radius: var(--border-radius);
 }
@@ -123,9 +123,9 @@ main {
     padding: 0.75rem;
 }
 
-/* Style for table hover - Vinted inspired */
+/* Style for table hover */
 .table-hover tbody tr:hover {
-    background-color: rgba(9, 177, 186, 0.05);
+    background-color: rgba(37, 99, 235, 0.05);
 }
 
 /* Style for process status indicators */
@@ -202,7 +202,7 @@ main {
 
 .form-control:focus {
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 0.2rem rgba(9, 177, 186, 0.15);
+    box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.15);
 }
 
 .form-select {
@@ -213,7 +213,7 @@ main {
 
 .form-select:focus {
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 0.2rem rgba(9, 177, 186, 0.15);
+    box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.15);
 }
 
 /* Vinted-style switches */
